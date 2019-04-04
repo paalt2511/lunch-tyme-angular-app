@@ -1,0 +1,18 @@
+<div>
+    <agm-map [latitude]="lat" [longitude]="lng">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+
+    <div class="map-view__banner">
+        <h3>{{restraurantDetails.name}}</h3>
+        <span>{{restraurantDetails.category}}</span>
+    </div>
+    <ul class="map-view__info">
+        <li>
+            {{restraurantDetails.location ? restraurantDetails.location.formattedAddress[0]: ""}}<br />
+            {{restraurantDetails.location ? restraurantDetails.location.formattedAddress[1]: ""}}
+        </li>
+        <li>{{restraurantDetails.contact && restraurantDetails.contact.formattedPhone ? restraurantDetails.contact.formattedPhone : ""}}</li>
+        <li>{{restraurantDetails.contact && restraurantDetails.contact.twitter ? restraurantDetails.contact.twitter : ""}}</li>
+    </ul>
+</div>

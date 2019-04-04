@@ -1,0 +1,23 @@
+<div class="list-view container-fluid">
+        <div class="row">
+            <div *ngIf="!isLandscape">
+                <div *ngFor="let item of restraurantList">
+                    <restraurant-details [details]="item" (restraurantChange)="portaitClick($event)"></restraurant-details>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="isLandscape">
+            <div class="row remove-default-padding">
+                <div class="col-xs-4 remove-default-padding scroll-y">
+                    <div *ngFor="let item of restraurantList" >
+                        <restraurant-details [details]="item" (restraurantChange)="landscapeClick($event)"></restraurant-details>
+                    </div>
+                </div>
+    
+                <div class="col-xs-8 remove-default-padding">
+                    <restraurant-info [selectedRestraurantName]="selectedRestraurantName"></restraurant-info>
+                </div>
+            </div>
+            
+        </div>
+    </div>

@@ -1,0 +1,29 @@
+agm-map {
+    height: 180px;
+}
+
+.map-view__banner {
+    background: #34b379;
+    color: #fff;
+    padding: 12px;
+    height: 60px;
+    h3 {
+      margin: 0 0 3px;
+      padding: 0;
+      font-size: 16px;
+      font-family: 'avenirnext-demi';
+      font-weight: bold;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+  
+  .map-view__info {
+    padding: 16px 12px;
+    margin: 0;
+    list-style: none;
+    li {
+      padding-bottom: 26px;
+    }
+  }

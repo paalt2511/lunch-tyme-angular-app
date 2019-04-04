@@ -1,0 +1,29 @@
+.header {
+    background: #43E895;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    right: 0;
+    z-index: 100;
+    &__back {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      width: 16px;
+    }
+    &__map {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      width: 30px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 17px;
+      color: #ffffff;
+      text-align: center;
+  }
+}
+

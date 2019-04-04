@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: avenirnext-regular;
+    src: url('../src/assets/fonts/avenirnext.otf') format("opentype");
+  }
+
+@font-face {
+  font-family: avenirnext-demi;
+  src: url('../src/assets/fonts/AvenirNext-Demi.otf') format("opentype");
+}
+  
+*{
+    font-family: 'avenirnext-regular'
+}  
+
+h1 {
+    color: #369;
+    font-size: 250%;
+  }
+  
+.remove-default-padding{
+ padding: 0px !important;
+}
+
+.scroll-y {
+  max-height: 1000px;
+  overflow-y:scroll;
+}
+  
