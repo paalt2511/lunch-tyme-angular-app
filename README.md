@@ -1,7 +1,7 @@
 # Lunch Tyme Angular App 
 
-* App help us to diplay Restaurants in both potrait and landscape mode. 
-* In Potrait, we can view app list items and on click of each item we can view it's detail which also includes map location.
+* App help us to diplay Restaurants in both portrait and landscape mode. 
+* In Portrait, we can view app list items and on click of each item we can view it's detail which also includes map location.
 * In Landscape, we can see both side by side view on single screen.
 
 # Technologoies Used
